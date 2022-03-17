@@ -1,7 +1,7 @@
 package com.company.topic1;
 
 public class Angajat {
-    public Angajat (String numeAtribuit, int virstaAtribuita, String genAtribuit, double salariuAtribuit ){
+    public Angajat(String numeAtribuit, int virstaAtribuita, String genAtribuit, double salariuAtribuit) {
         nume = numeAtribuit;
         virsta = virstaAtribuita;
         gen = genAtribuit;
@@ -9,14 +9,15 @@ public class Angajat {
 
 
     }
+
     String nume;
     int virsta;
     String gen;
     double salariu;
     boolean dornicDePromovare;
 
-    public void lucreazaSirguincios(){
-        System.out.println(nume + " " + gen + " " + salariu +  " merita o promovare, si o marire de salariu" );
+    public void lucreazaSirguincios() {
+        System.out.println(nume + " " + gen + " " + salariu + " merita o promovare, si o marire de salariu");
         this.dornicDePromovare = true;
 
     }
