@@ -25,6 +25,7 @@ public class Persoana {
             System.out.println("Persoana are o greutate corespunzatoare");
         }
 
+
     }
 
     public double getGreutate() {
