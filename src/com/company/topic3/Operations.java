@@ -23,7 +23,6 @@ public class Operations {
 
     }
 
-    ;
 
     static void printRelationarOperations(int p, int r) {
         System.out.println("Egalitate: " + (p == r));
@@ -36,7 +35,6 @@ public class Operations {
 
     }
 
-    ;
 
     static void useForAndWhile(int limita) {
         int index = 21;
@@ -47,7 +45,7 @@ public class Operations {
         System.out.println("Valoarea finala a executiei while este: " + index);
 
         for (int p = 21; p <= limita; p++) {
-            System.out.print(p+ " ");
+            System.out.print(p + " ");
         }
         System.out.println("Ciclul FOR a fost finisat");
 
