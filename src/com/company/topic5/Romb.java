@@ -17,18 +17,15 @@ public class Romb extends FiguraGeometrica {
 
     }
 
-
     public void setLaturile(double laturaMare, double laturaMica) {
-        if ((laturaMare < laturaMica) && (laturaMare < 0) && (laturaMica < 0)) {
-            System.out.println("Laturile au fost setate gresit!");
-
-        } else {
+        if ((laturaMare > laturaMica) && (laturaMare > 0) && (laturaMica > 0)) {
             this.laturaMare = laturaMare;
             this.laturaMica = laturaMica;
+        } else {
+            System.out.println("Laturile au fost setate gresit!");
         }
 
     }
-
 
     @Override
     public double returneazaAria() {

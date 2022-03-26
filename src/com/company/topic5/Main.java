@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Perimetrul patratului este: " + patrat2.getPerimetruFigurii());
         System.out.println("Aria patratului este: " + patrat2.getAriaFigurii());
 
-        romb3.setDiagonale(32,31);
+        romb3.setDiagonale(31,30);
         romb3.setLaturile(20,19);
         romb3.returneazaAria();
         romb3.returneazaPerimetru();
