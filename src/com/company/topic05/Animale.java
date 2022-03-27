@@ -6,6 +6,7 @@ public abstract class Animale {
     protected double totalKgCarne;
 
     public abstract double returneazaLitri();
+
     public abstract double returneazakgCarne();
 
     public double getTotalLitriDeLapte() {

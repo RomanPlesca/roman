@@ -1,6 +1,6 @@
 package com.company.topic05;
 
-public class Oi extends Animale{
+public class Oi extends Animale {
 
     private int capete;
     private double litriDeLapte;
